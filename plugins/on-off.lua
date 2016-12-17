@@ -17,13 +17,13 @@ local function enable_channel(receiver)
 	end
 
 	if _config.disabled_channels[receiver] == nil then
-		return " Bot is come online... "
+		return " ربات روشن می باشد "
 	end
 	
 	_config.disabled_channels[receiver] = false
 
 	save_config()
-	return " Bot Was On..."
+	return " ربات روشن شد"
 end
 
 local function disable_channel( receiver )
@@ -34,7 +34,7 @@ local function disable_channel( receiver )
 	_config.disabled_channels[receiver] = true
 
 	save_config()
-	return "Bot Was Off..."
+	return "ربات خاموش شد"
 end
 
 local function pre_process(msg)
@@ -63,7 +63,7 @@ local function run(msg, matches)
 	local hash = 'usecommands:'..msg.from.id..':'..msg.to.id
     redis:incr(hash)
 	if not is_owner(msg) then
-	return ' You are not admin!'
+	return ' شما ادمین نیستسد'
 	end
 	if matches[1] == 'on' then
 		return enable_channel(receiver)

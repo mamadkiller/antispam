@@ -63,13 +63,15 @@ function run(msg, matches)
     
 〰〰〰〰〰〰〰
 
-✨سایت اصلی: Tarfand.Ir ✨
+✨سازنده  : @mamadkiller✨
 </i>]]
 end
 
 return {
   patterns = {
-    "^کمک$",
+     "^[#!/][Hh][Ee][Ll][Pp]$",
+      "^[Hh]elp$",
+      "^کمک$",
     "^راهنما$"
   }, 
   run = run 

@@ -48,3 +48,14 @@ cd $HOME
 cd fa
 
 ./launch.sh
+
+
+
+
+
+
+
+By @mamadkiller
+
+https://instagram.com/mamadkiller
+https://telegram.com/mamadkiller

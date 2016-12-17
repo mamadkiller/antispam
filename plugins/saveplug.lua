@@ -10,7 +10,7 @@ local function saveplug(extra, success, result)
     print('File moved to:', file)
   else
     print('Error downloading: '..msg.id)
-    send_large_msg(receiver, 'Failed, please try again!', ok_cb, false)
+    send_large_msg(receiver, 'خطا,دوباره تلاش کنید', ok_cb, false)
   end
 end
 local function run(msg,matches)
@@ -20,13 +20,14 @@ local function run(msg,matches)
    local name = matches[2]
       if matches[1] == "save" and matches[2] and is_sudo(msg) then
 load_document(msg.reply_id, saveplug, {msg=msg,name=name})
-        return  "Plugin Save In Plugins Server! Name Pl:" ..name
+        return  "پلایگین ذخیره شد! نام پلاگین:" ..name
     end
 end
 end
 return {
   patterns = {
  "^[!/#]([Ss][Aa][Vv][Ee]) (.*)$",
+    "^[!/#](ذخیره) (.*)$",
   },
   run = run,
 }

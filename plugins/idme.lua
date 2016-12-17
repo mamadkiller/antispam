@@ -3,7 +3,7 @@ do
 
 function run(msg, matches)
 	if msg.to.type == 'chat' or msg.to.type == 'channel' then
-  return "Your Name : "..msg.from.first_name.."\nYour ID : "..msg.from.id.."\n---------------------------------------\nYour Link : telegram.me/"..(msg.from.username or '').."\n---------------------------------------\nGroup Name : "..msg.to.title.."\nGroup ID : "..msg.to.id
+  return " اسم شما : "..msg.from.first_name.."\nایدی شما : "..msg.from.id.."\n---------------------------------------\nنام کاربری شما : @"..(msg.from.username or '').."---------------------------------------\n لینک شما : telegram.me/"..(msg.from.username or '').."\n---------------------------------------\n اسم گروه : "..msg.to.title.."\n ایدی گروه : "..msg.to.id
 end
 end
 return {

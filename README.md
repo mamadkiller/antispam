@@ -45,7 +45,7 @@ new terminal----------------------
 
 cd $HOME
 
-cd fa
+cd antispam2
 
 ./launch.sh
 

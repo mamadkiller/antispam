@@ -20,7 +20,7 @@ cd $HOME
 
 git clone https://github.com/mamadkiller/antispam2
 
-cd fa
+cd antispam2
 
 chmod +x launch.sh
 

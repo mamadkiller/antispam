@@ -34,7 +34,7 @@ chmod +x launch.sh
 
 @userinfobot
 
-fa/data/confing.lua                        set sudo
+antispam2/data/confing.lua                        set sudo
 
 ----------------------------------------
 

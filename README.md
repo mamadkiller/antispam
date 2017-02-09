@@ -42,7 +42,7 @@ antispam/data/confing.lua
 ```
 cd antispam
 
-Use `./launch.sh` to run your bot normaly or use `screen ./launch.shh` for auto launch mode 
+Use ./launch.sh to run your bot normaly or use screen ./launch.sh for auto launch mode 
 ```
 
 
@@ -50,7 +50,7 @@ Use `./launch.sh` to run your bot normaly or use `screen ./launch.shh` for auto 
 
 
 
-By @mamadkiller
+## Developer
 
-https://instagram.com/mamadkiller
-https://telegram.com/mamadkiller
+* [Mamadkiller](https://telegram.me/Mamadkiller)
+

@@ -9,7 +9,7 @@ local function history(extra, suc, result)
   end
 end
 local function run(msg, matches)
-  if matches[1] == 'پاک کردن' and is_owner(msg) then
+  if matches[1] == 'deletepm' and is_owner(msg) then
     if msg.to.type == 'channel' then
       if tonumber(matches[2]) > 10000 or tonumber(matches[2]) < 1 then
         return "<i>✨عدد بايد بالاتر از 1باشد!✨</i>"
@@ -25,7 +25,7 @@ end
 
 return {
     patterns = {
-        '^(پاک کردن) (%d*)$'
+        "^[/!#]([Dd]eletepm) (.*)$",
     },
     run = run
 }

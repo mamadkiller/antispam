@@ -26,12 +26,12 @@ chmod +x launch.sh
 
 
 ## SetSudo
-
-�pm Intelegram�
+```
+pm Intelegram
 @userinfobot
 
 antispam/data/confing.lua                        
-
+```
 
 
 
@@ -42,7 +42,7 @@ antispam/data/confing.lua
 ```
 cd antispam
 
-Use `./tabchi-ID.sh` to run your bot normaly or use `screen ./tabchi-ID.sh` for auto launch mode (put tabchi-id in ID part)
+Use `./launch.sh` to run your bot normaly or use `screen ./launch.shh` for auto launch mode 
 ```
 
 
